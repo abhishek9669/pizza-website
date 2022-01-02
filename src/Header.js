@@ -2,6 +2,8 @@ import React from 'react'
 import About from './About'
 import Navbar from './Navbar'
 import Shop from './Shop'
+import Menu from './Menu';
+import Clint from './Clint';
 
 export default function Header() {
     return (
@@ -26,6 +28,8 @@ export default function Header() {
             </div>
             <About />
             <Shop />
+            <Menu />
+            <Clint />
         </div>
         
     )
